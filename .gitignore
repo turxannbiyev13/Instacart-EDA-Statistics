@@ -1,0 +1,15 @@
+# Python cache və digər lazımsız fayllar
+__pycache__/
+*.py[cod]
+
+# Google Colab və Jupyter Notebook avtomatik faylları
+.ipynb_checkpoints/
+
+# Datasetlər (Əgər fayllar böyükdürsə və ya Drive-dadırsa, onları yükləməmək daha yaxşıdır)
+data/
+*.csv
+*.xlsx
+
+# Şəxsi qovluqlar və məxfi məlumatlar
+.DS_Store
+.env
